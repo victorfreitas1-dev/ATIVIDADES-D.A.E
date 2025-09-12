@@ -1,0 +1,68 @@
+
+
+form{
+    align-items: center;
+    justify-content: center;
+    display:flex ;
+    
+}
+ body{
+    background-color: rgb(39, 39, 103)
+ }
+
+.btn-container {
+   display: flex;
+   justify-content: center;
+   margin-top: 20px;
+}
+
+.btn-enviar {
+   background-color: rgb(39, 39, 103);
+   color: #fff;
+   border: none;
+   padding: 10px 30px;
+   border-radius: 5px;
+   font-size: 16px;
+   cursor: pointer;
+   transition: background 0.2s;
+}
+.btn-enviar:hover {
+   background-color: rgb(60, 60, 150);
+}
+
+ #contorno{
+   width: 350px;
+   height: 500px;
+ border: 5px black solid; 
+ background-color: rgb(134, 145, 155);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+}
+ .h1 {
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    border: 5px black solid;
+ }
+
+legend {
+   width: 100%;
+   text-align: center;
+   display: flex;
+   justify-content: center;
+}
+
+fieldset div, fieldset label, fieldset input, fieldset textarea {
+   width: 100%;
+   text-align: center;        
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+   .label{
+      font-size: 20px;
+      font-style: normal;
+      font-weight: bolder;
+      
+   }
